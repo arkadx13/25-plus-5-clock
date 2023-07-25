@@ -83,7 +83,7 @@ button > i:hover {
   }
 
   #time-left {
-    margin: 100px 0 100px;
+    margin: 80px 0 80px;
   }
 
   .control-play {
@@ -93,6 +93,12 @@ button > i:hover {
   .break-session-settings {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .settings {
+    width: 50%;
+    margin-bottom: 20px;
   }
 }
