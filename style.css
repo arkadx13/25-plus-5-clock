@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 200px 50px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #ffffffea;
+  text-align: center;
+}
+
+/* Countdown Display Timer */
+.hero {
+  margin-bottom: 30px;
+  text-shadow: 2px 3px #566aa9;
+}
+
+.control-play {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.control-play button {
+  margin: 0 15px;
+  padding: 6px 0;
+}
+
+#time-left {
+  margin: 40px 0 50px;
+  color: rgb(61, 145, 214);
+  font-size: 80px;
+  text-shadow: 1px 1px 3px #ffffff;
+}
+
+/* Buttons for setting break and session periods */
+
+.break-session-settings {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.settings {
+  /* border: 1px solid green; */
+  width: 50%;
+  margin: 10px 50px 50px;
+}
+
+.settings-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+
+.settings-btn > h3 {
+  margin: 0 10px;
+}
+
+/* Buttons general setting */
+button {
+  border: none;
+  background: #ffd166;
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+button:hover,
+button > i:hover {
+  background: #ffe29e;
+  color: rgb(55, 195, 255);
+}
