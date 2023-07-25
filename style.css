@@ -76,3 +76,9 @@ button > i:hover {
   background: #ffe29e;
   color: rgb(55, 195, 255);
 }
+
+@media (max-width: 480px) {
+  .App {
+    height: 100vh;
+  }
+}
