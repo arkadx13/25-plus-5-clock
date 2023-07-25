@@ -101,7 +101,7 @@ function App() {
     <div className="App">
       <div className="display">
         <h1 className="hero">25 + 5 Clock</h1>
-        <h3 id="timer-label">{onBreak ? "ON BREAK" : "ON SESSION"}</h3>
+        <h3 id="timer-label">{onBreak ? `"ON BREAK"` : `"ON SESSION"`}</h3>
         <h1 id="time-left">{formatTime(timer)}</h1>
         <div className="control-play">
           <button id="start_stop" onClick={pausePlay}>

@@ -82,6 +82,14 @@ button > i:hover {
     height: 100%;
   }
 
+  #time-left {
+    margin: 80px 0 80px;
+  }
+
+  .control-play {
+    margin: 50px 0 30px;
+  }
+
   .break-session-settings {
     display: flex;
     flex-direction: column;
