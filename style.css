@@ -79,7 +79,7 @@ button > i:hover {
 
 @media only screen and (max-width: 480px) {
   .App {
-    height: 100vh;
+    height: 100%;
   }
 
   .break-session-settings {
